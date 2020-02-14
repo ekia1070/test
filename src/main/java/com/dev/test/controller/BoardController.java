@@ -11,4 +11,9 @@ public class BoardController {
         return "index";
     }
 
+    @RequestMapping("develop")
+    public String develop() {
+        return "develop";
+    }
+
 }
